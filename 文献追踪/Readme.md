@@ -145,7 +145,7 @@ Specifically, we discuss how facilitating message passing by removing “noisy�
 
 ![image-20201222163311604](./img/image-20201222163311604.png)
 
-
+![image-20210617182453446](img/image-20210617182453446.png)
 
 
 
@@ -696,6 +696,10 @@ The Bridgeness index of an edge e(u, v) is defined as
 
 ## Link Prediction Based on Graph Neural Networks
 
+![image-20210610133946907](img/image-20210610133946907.png)
+
+
+
 
 
 ## Graph similarity scoring and matching
@@ -885,4 +889,4 @@ $$
 
 
 
-## DeepFM
+## DeepFM请
