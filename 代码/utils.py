@@ -26,6 +26,8 @@
         生成log日志文件
     13.tensorboard
         绘制loss, acc曲线
+    14.make_path
+        创建文件夹
 """
 
 
@@ -360,3 +362,14 @@ import logging
 
     def tensorboard():
         from tensorboardX import SummaryWriter  
+
+
+def make_path(path_list: list):
+    from pathlib import Path
+    for i in path_list:
+        p = Path(i)
+        if not p.exists():
+            p.mkdir(exist_ok=True, parents=True)  # 递归创建文件目录
+            print(i, ' mkdir OK.')
+        else:
+            print(i, ' dir already exist.')
